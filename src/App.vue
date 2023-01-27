@@ -12,6 +12,7 @@ const isAddDisabled = computed(() => {
 })
 
 const classCounter = computed(() => {
+  // Pruebas
   return counter.value < 0 ? 'numberRed' : (counter.value === 0 ? 'numberZero' : 'numberGreen');
 })
 
